@@ -1,0 +1,48 @@
+/* Asegurar que todos los filtros tengan el mismo tamaño */
+.filter-input {
+    height: 38px;
+  }
+  
+  /* Diseño de la barra de búsqueda */
+  .input-group {
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  .input-group-text {
+    background-color: #f8f9fa;
+    border: 1px solid #ced4da;
+  }
+  
+  .search-input {
+    border-left: 0;
+    padding-left: 10px;
+  }
+  
+  /* Diseño de la tabla */
+  .custom-table thead {
+    background-color: #007bff;
+    color: white;
+    text-align: center;
+  }
+  
+  .custom-table th, .custom-table td {
+    padding: 12px;
+    text-align: center;
+  }
+  
+  /* Estado de Cliente */
+  .estado-activo {
+    background-color: #28a745;
+    color: white;
+    padding: 6px 12px;
+    border-radius: 8px;
+  }
+  
+  .estado-inactivo {
+    background-color: #6c757d;
+    color: white;
+    padding: 6px 12px;
+    border-radius: 8px;
+  }
+  

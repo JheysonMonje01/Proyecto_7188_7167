@@ -1,0 +1,79 @@
+.recuperacion-form-container {
+    
+    background-color: #ffffff;
+    padding-top: 160px; /* Ajusta este valor para bajar el formulario */
+   
+  }
+
+  
+  .recuperacion-form-card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 20px;
+    background-color: #ffffff;
+  }
+  
+  .recuperacion-form-title {
+    margin-bottom: 20px;
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .recuperacion-form-icon {
+    margin-right: 8px;
+  }
+  
+  .recuperacion-form-button-container {
+    display: flex;
+    justify-content: center; /* Centra el botón horizontalmente */
+    margin-top: 15px;
+  }
+  
+  .recuperacion-form-button {
+    background-color: #007bff;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .recuperacion-form-button:hover {
+    background-color: #0056b3;
+    color: #fff;
+  }
+
+  .password-toggle-icon {
+    color: #6c757d;
+  }
+
+/* RESPONSIVIDAD: Ajuste para dispositivos móviles */
+@media (max-width: 500px) {
+    .recuperacion-form-card {
+        padding: 20px;
+    }
+}
+/* Flecha de retroceso */
+.back-arrow {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    font-size: 1.5rem;
+    color: #333;
+    cursor: pointer;
+    transition: color 0.3s ease-in-out, transform 0.2s ease-in-out;
+}
+
+.back-arrow:hover {
+    color: #007bff;
+    transform: scale(1.1);
+}
+
+/* Ajuste del card para la flecha */
+.recuperacion-form-card {
+    position: relative;
+    padding-top: 50px; /* Ajustar espacio para la flecha */
+}
