@@ -13,8 +13,6 @@ app = Flask(__name__)
 PLAN_SERVICIOS_URL = 'http://127.0.0.1:5001/plan_servicios/planes'
 CLIENTES_URL = 'http://127.0.0.1:5001/clientes/'
 
-CLAUDE_API_KEY = os.getenv('CLAUDE_API_KEY')
-
 # Información de la empresa
 COMPANY_INFO = {
     "Empresa": "Global Speed",
