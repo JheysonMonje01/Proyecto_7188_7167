@@ -1,0 +1,14 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": ["Hola", "¿Cómo estás?", "Buenos días"],
+            "responses": ["Hola, ¿en qué puedo ayudarte?", "¡Hola! ¿Cómo puedo asistirte hoy?"]
+        },
+        {
+            "tag": "internet_problem",
+            "patterns": ["No tengo internet", "Mi conexión está lenta"],
+            "responses": ["Lamentamos el inconveniente. Por favor, reinicia tu router."]
+        }
+    ]
+}
